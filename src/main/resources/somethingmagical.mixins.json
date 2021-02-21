@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.fusionflux.somethingmagical.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "EnderDragonEntityRendererMixin",
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
